@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LABE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo&family=Libre+Franklin&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="bi bi-list"></i>
+      </label>
+      <ul>
+        <li>
+          <img src="/images/home_logo.png" class="icon" />
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <img src="/images/about_logo.png" class="icon" />
+          <a href="about.html">About</a>
+        </li>
+        <li class="active">
+          <img src="/images/topics_logo.png" class="icon" />
+          <a href="topics.html">Topics</a>
+        </li>
+        <li>
+          <img src="/images/references_logo.png" class="icon" />
+          <a href="reference.html">References</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h1 class="topics-h1">Topics</h1>
+    <div id="slider">
+      <input type="radio" name="slider" id="s1" checked />
+      <input type="radio" name="slider" id="s2" />
+      <input type="radio" name="slider" id="s3" />
+      <input type="radio" name="slider" id="s4" />
+      <input type="radio" name="slider" id="s5" />
+      <label for="s1" id="slide1">
+        <img src="/images/info1.jpg" alt="" class="image-carousel" />
+      </label>
+      <label for="s2" id="slide2">
+        <img src="/images/info2.jpg" alt="" class="image-carousel" />
+      </label>
+      <label for="s3" id="slide3">
+        <img src="/images/info3.jpg" alt="" class="image-carousel" />
+      </label>
+      <label for="s4" id="slide4">
+        <img src="/images/info4.jpg" alt="" class="image-carousel" />
+      </label>
+      <label for="s5" id="slide5">
+        <!-- <a href="https://www.realsimple.com/work-life/technology/communication-etiquette/social-media-etiquette-rules"> -->
+        <img src="/images/info5.jpg" alt="" class="image-carousel" />
+        <!-- </a> -->
+      </label>
+    </div>
+
+    <div class="topics-grid">
+      <h1 class="topics-h1">Images</h1>
+      <img src="/images/info1.jpg" alt="" class="topics-image" />
+      <img src="/images/info2.jpg" alt="" class="topics-image" />
+      <img src="/images/info3.jpg" alt="" class="topics-image" />
+      <img src="/images/info4.jpg" alt="" class="topics-image" />
+      <img src="/images/info1.jpg" alt="" class="topics-image" />
+    </div>
+
+    <h1 class="topics-h1">Videos</h1>
+    <div class="topics-body">
+      <video
+        src="/videos/video1.mp4"
+        class="topics-video"
+        controls
+        muted
+      ></video>
+      <video
+        src="/videos/video2.mp4"
+        class="topics-video"
+        controls
+        muted
+      ></video>
+      <video
+        src="/videos/video3.mp4"
+        class="topics-video"
+        controls
+        muted
+      ></video>
+      <video
+        src="/videos/video4.mp4"
+        class="topics-video"
+        controls
+        muted
+      ></video>
+      <video
+        src="/videos/video5.mp4"
+        class="topics-video"
+        controls
+        muted
+      ></video>
+    </div>
+  </body>
+</html>
